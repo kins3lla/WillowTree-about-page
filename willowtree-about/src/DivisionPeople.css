@@ -1,0 +1,17 @@
+.App{
+  background-color: white;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.heading{
+  margin: 20px;
+  padding: 20px;
+}
+
+.Images{
+  justify-content: space-around;
+  padding: 30px;
+}

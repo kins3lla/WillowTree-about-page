@@ -1,0 +1,13 @@
+
+.Images{
+    position: static;
+    align-content: center;
+    
+}
+
+.text{
+  text-align: left;
+  align-content: left;
+  margin: 20px;
+  padding: 10px;
+}
