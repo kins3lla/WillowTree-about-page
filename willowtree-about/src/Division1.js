@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import willowtree from './willowtree.png';
 import './Division1.css';
@@ -12,6 +13,7 @@ class Division1 extends React.Component {
         <div className="App-header">
           <Header />
         </div>
+
         <div className="head">
 
           <div className='aboutImage'>
@@ -19,17 +21,18 @@ class Division1 extends React.Component {
           </div>
 
           <div className='aboutText'>
-
-            <div className="info">
+            <div className="header1">
               <h1> What we do </h1>
-              <p> We build apps, responsive sites, bots—an</p>
-              <p> lives on a screen—for the world dwqkndqd</p>
-              <p>Our elite teams challenge themselves tsaxdt</p>
-              <p> and design thinking with enterprise-grade </p>
+              </div>
+              <div className="para">
+              <p>We build apps, responsive sites, bots—any 
+                digital product that lives on a screen—for the world’s leading 
+                companies. Our elite teams challenge themselves to build extraordinary experiences 
+                by bridging the latest strategy and design thinking with enterprise-grade software development.</p>
+             
             </div>
-          </div>
         </div>
-
+        </div>
 
 
       </div>
