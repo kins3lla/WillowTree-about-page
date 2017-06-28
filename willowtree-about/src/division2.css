@@ -1,0 +1,52 @@
+
+
+body {
+    font-size: 16px;
+    font-size: 1rem;
+    color: #4a4a4a;
+  
+    
+   
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.main1 {
+}
+
+.main2 {
+    margin-left: 700px;
+    padding: 50px;
+    font-size: 20px;
+
+    
+
+}
+
+.wrapper {
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.hello {
+   display: flex;
+   flex-direction: row;
+ 
+
+ 
+  
+}
+
+.ant-card {
+    flex: 1;
+    width: 300px;
+
+}
+
+
