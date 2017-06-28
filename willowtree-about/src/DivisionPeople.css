@@ -13,12 +13,66 @@
 }
 
 .Images{
-  justify-content: space-around;
-  padding: 30px;
+  justify-content: left;
 
 }
 
 .image1{
-  margin: 200px;
-  size: 10%;
+  order: 1;
+  flex-shrink: 1;
+  max-width: 300px;
+}
+
+.image2{
+ order: 2;
+ flex-shrink: 1;
+ max-width: 300px;
+}
+
+.image3{
+ order:3;
+ flex-shrink: 1;
+ max-width: 300px;
+}
+
+.image4{
+ order: 4; 
+ flex-shrink: 1;
+ max-width: 300px;
+}
+
+.image5{
+  order: 5;
+  flex-shrink: 1;
+  max-width: 300px;
+}
+
+.image6{
+  order: 6;
+  flex-shrink: 1;
+  max-width: 300px;
+}
+
+.image7{
+ order: 7;
+ flex-shrink: 1;
+ max-width: 300px;
+}
+
+.image8{
+ order:8;
+ flex-shrink: 1;
+ max-width: 300px;
+}
+
+.image9{
+ order: 9; 
+ flex-shrink: 1;
+ max-width: 300px;
+}
+
+.image10{
+  order: 10;
+  flex-shrink: 1;
+  max-width: 300px;
 }
