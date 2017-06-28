@@ -12,7 +12,7 @@ class Division3 extends React.Component {
     return (
  
  <div className="hello" style={{ background: '#ECECEC', padding: '10px', textAlign:'left', fontFamily:'Helvetica Neue',letterSpacing: '1px' , fontWeight: '500' }}>
-    <Card title="CORE SERVICES" bordered={false} style={{ width: 200, fontFamily:'Times New Roman,Times,serif', fontSize: '15px', lineHeight: '30px', fontWeight: '600px', marginLeft: "200px"} }>
+    <Card title="CORE SERVICES" bordered={false} style={{ width: 200, fontFamily:'Times New Roman,Times,serif', fontSize: '15px', lineHeight: '30px', fontWeight: '600px', marginLeft: "100px"} }>
       <h1>Mobile Product Strategy </h1>
       <h1>Mobile Engagement</h1>
       <h1>Web Development</h1>
