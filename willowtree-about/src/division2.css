@@ -19,6 +19,8 @@ body {
 
 
 .main1 {
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+
 }
 
 .main2 {
@@ -38,6 +40,7 @@ body {
 .hello {
    display: flex;
    flex-direction: row;
+
  
 
  
