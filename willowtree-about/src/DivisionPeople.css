@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .heading{
@@ -14,4 +15,10 @@
 .Images{
   justify-content: space-around;
   padding: 30px;
+
+}
+
+.image1{
+  margin: 200px;
+  size: 10%;
 }

@@ -1,8 +1,10 @@
 .App {
   text-align: center;
-  background-color: white;
+  background-color: #252525;
   display: flex;
   flex-direction: column;
+  min-width: 100%;
+  flex-grow: 1;
 }
 
 .App-header {
@@ -17,10 +19,9 @@
 .head {
   display:flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  background-color: black;
-
-
+  flex-wrap: wrap;
+  background-color: #252525;
+  width: 100%;
 }
 
 .aboutImage{
@@ -39,7 +40,7 @@
     font-size: 1em;
     font-weight: bold;
     word-wrap: break-word;
-    color: white;
+    color: #252525;
     font-family: Freight Display Pro,Times New Roman,Times,serif;
     margin-top: 100px;
 }

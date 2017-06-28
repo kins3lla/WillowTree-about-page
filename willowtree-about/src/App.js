@@ -16,11 +16,15 @@ class App extends React.Component {
     return (
       <div className="App">
 
-        <Division1 />
-        <Division2 />
-        <Division4 />
-        <DivisionCarousel />
-        <DivisionPeople />
+        <Division1 className="division1" />
+
+        <Division2 className="division2" />
+
+        <Division4 className="division4" />
+
+        <DivisionCarousel className="divisionCarousel" />
+
+        <DivisionPeople className="divisionPeople" />
 
       </div>
     );

@@ -1,6 +1,25 @@
 .App {
   text-align: center;
   background-color: white;
-  display: flex;
-  flex-direction: column;
+  
+}
+
+.division1{
+  min-width: 100%;
+}
+
+.division2{
+  
+}
+
+.division4{
+  
+}
+
+.divisionCarousel{
+  
+}
+
+.divisionPeople{
+  
 }

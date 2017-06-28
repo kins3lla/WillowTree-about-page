@@ -30,16 +30,16 @@ class DivisionPeople extends React.Component {
 
         <div className="Images">
 
-          <img style={style} src={Person1} />
-          <img style={style} src={Person2} />
-          <img style={style} src={Person3} />
-          <img style={style} src={Person4} />
-          <img style={style} src={Person5} />
-          <img style={style} src={Person6} />
-          <img style={style} src={Person7} />
-          <img style={style} src={Person8} />
-          <img style={style} src={Person9} />
-          <img style={style} src={Person10} />
+          <img style={style} src={Person1} className="image1" />
+          <img style={style} src={Person2} className="image1" />
+          <img style={style} src={Person3} className="image1" />
+          <img style={style} src={Person4} className="image1" />
+          <img style={style} src={Person5} className="image1" />
+          <img style={style} src={Person6} className="image1" />
+          <img style={style} src={Person7} className="image1" />
+          <img style={style} src={Person8} className="image1" />
+          <img style={style} src={Person9} className="image1" />
+          <img style={style} src={Person10} className="image1" />
         </div>
 
 
