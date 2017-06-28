@@ -1,34 +1,67 @@
-
+@import url('https://fonts.googleapis.com/css?family=Cabin|Montserrat:300,400');
 
 body {
     font-size: 16px;
     font-size: 1rem;
     color: #4a4a4a;
-  width: 100%;
-    
+    width: 100%;
+    background-color: #f8f8f8;
    
 }
 
 
 .wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    padding: 50px;
+    margin-left: 100px;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
     
 }
 
+.Col1{
+    text-align: right;
+    justify-content: right;
+    align-content: right;
+    order:1;
+}
+
+.Col2{
+    align-content: left;
+    text-align: left;
+    order:2;
+}
 
 .main1 {
-    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
-
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Times New Roman,Times,serif;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: normal;
+    text-transform: none;
+    order: 1;
+    text-align: right;
+    align-content: right;
+    color: #4a4a4a;
 }
 
 .main2 {
-    margin-left: 700px;
+    
     padding: 50px;
     font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 30px;
+    color: #4a4a4a;
 
-    
 
 }
 
