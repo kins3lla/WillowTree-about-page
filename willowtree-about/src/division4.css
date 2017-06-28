@@ -1,0 +1,33 @@
+.hello{
+  width: 100%;
+  align-content: left;
+  align-items: center;
+  align-self: left;
+}
+
+.ant-card-head-title {
+    color: #707070;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: .875rem;
+    letter-spacing: 2.628px;
+    letter-spacing: .16428rem;
+    font-weight: 500;
+
+}
+
+
+
+.hello {
+     content: "";
+    display: table;
+    clear: both;
+    background: rgb(236, 236, 236);
+    padding: 10px;
+    text-align: left;
+    font-family: "Helvetica Neue";
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}

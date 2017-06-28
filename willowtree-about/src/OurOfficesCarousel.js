@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./OurOfficesCarousel.css";
+import { Pagination, Button } from 'antd';
 
 var img1 = (
   <img
@@ -63,6 +64,11 @@ var images = [img1, img2, img3, img4, img5, img6, img7, img8];
 
 var length = images.length;
 
+var styles = {
+  backgroundcolor: 'transparent',
+  fontsize: '20px'
+}
+
 class ImageCarousel extends Component {
 
 
@@ -95,19 +101,33 @@ class ImageCarousel extends Component {
     }
   };
 
+  onChange = (page) => {
+    console.log(page);
+    this.setState({
+      imageIndex: page,
+    });
+  }
+
   render() {
     return (
-      <div className="Carousel">
+      <div className="Wrapper">
+
         <div className="text">
-          <h1> Our Offices </h1>
-          <p>We collaborate closely in shared team spaces in Charlottesville, Virginia and</p>
-          <p>Durham, North Carolina. We love where we work and love what we do.</p>
+          <h1 className="title"> Our Offices </h1>
+          <div className="textcontent">
+            <p>We collaborate closely in shared team spaces in Charlottesville, Virginia and</p>
+            <p>Durham, North Carolina. We love where we work and love what we do.</p>
+          </div>
         </div>
-        <div>
+
+        <div className="Carousel">
           <h1 className="Images" onMouseOver={this.changeImage}>
+
             {images[this.state.imageIndex]}
           </h1>
+
           <div className="Numbers">
+
             <div>
               <a> 1 </a>
               <a> 2 </a>
@@ -118,6 +138,7 @@ class ImageCarousel extends Component {
               <a> 7 </a>
               <a> 8 </a>
             </div>
+
           </div>
 
         </div>

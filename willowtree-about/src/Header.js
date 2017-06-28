@@ -24,7 +24,7 @@ class Header extends React.Component {
       <div className='header'>
 
         <div className='logo'>
-          <img src={WillowTreeApps} style={style} />
+          <img src={WillowTreeApps} style={style} className='willowtreelogo' />
         </div>
 
         <div className='links'>

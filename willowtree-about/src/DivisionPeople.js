@@ -17,9 +17,7 @@ class DivisionPeople extends React.Component {
   render() {
     var style = {
       margin: '20px',
-      padding: '20px',
-      width: '40%',
-      height: 'auto'
+      padding: '20px'
 
     };
 
@@ -30,16 +28,24 @@ class DivisionPeople extends React.Component {
 
         <div className="Images">
 
-          <img style={style} src={Person1} />
-          <img style={style} src={Person2} />
-          <img style={style} src={Person3} />
-          <img style={style} src={Person4} />
-          <img style={style} src={Person5} />
-          <img style={style} src={Person6} />
-          <img style={style} src={Person7} />
-          <img style={style} src={Person8} />
-          <img style={style} src={Person9} />
-          <img style={style} src={Person10} />
+          <div className="row1">
+            <img style={style} src={Person1} className="image1" />
+            <img style={style} src={Person2} className="image2" />
+            <img style={style} src={Person3} className="image3" />
+          </div>
+          <div className="row2">
+            <img style={style} src={Person4} className="image4" />
+            <img style={style} src={Person5} className="image5" />
+            <img style={style} src={Person6} className="image6" />
+          </div>
+          <div className="row3">
+            <img style={style} src={Person7} className="image7" />
+            <img style={style} src={Person8} className="image8" />
+            <img style={style} src={Person9} className="image9" />
+          </div>
+          <div className="row4">
+            <img style={style} src={Person10} className="image10" />
+          </div>
         </div>
 
 
