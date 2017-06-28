@@ -14,19 +14,30 @@ class Division2 extends React.Component {
       <div className="wrapper">
         <div clasName="main">
 
-          <div className="main1">
-            <h1> "How we do it" </h1>
-          </div>
+          <Row className='row'>
 
-          <div className="main2">
-            <p>Our teams work together—under the same roof</p>
-            <p> in the same room. We build our creative centers in </p>
-            <p> top college towns where we can attract top talent </p>
-            <p> and offer an incredible lifestyle. We hire only the </p>
-            <p> best and trust our teams to work autonomously. </p>
-            <p>We are independent—our only responsibility is </p>
-            <p>to deliver extraordinary outcomes to our clients.</p>
-          </div>
+            <Col span={12} className='Col1'>
+              <div className="main1">
+                <h1 > How we do it </h1>
+              </div>
+            </Col>
+
+
+            <Col span={12} className='Col2'>
+              <div className="main2">
+
+                <p>Our teams work together—under the same roof</p>
+                <p> in the same room. We build our creative centers in </p>
+                <p> top college towns where we can attract top talent </p>
+                <p> and offer an incredible lifestyle. We hire only the </p>
+                <p> best and trust our teams to work autonomously. </p>
+                <p>We are independent—our only responsibility is </p>
+                <p>to deliver extraordinary outcomes to our clients.</p>
+
+              </div>
+            </Col>
+          </Row>
+
         </div>
 
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Montserrat:300,400');
+
 body {
     font-size: 16px;
     font-size: 1rem;
@@ -39,7 +41,6 @@ body {
   margin-top: 100px;
   padding: 10px;
   padding-top: 30px;
-      
 }
 
 .header1 {
@@ -60,8 +61,7 @@ body {
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
-  font-family: Helvetica,Helvetica,Arial,sans-serif;
+  font-family: 'Cabin', sans-serif;
   width: 400px;
   text-align: left;
- 
 }

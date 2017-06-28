@@ -1,13 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Montserrat:300,400');
 
-.Images{
-    position: static;
-    align-content: center;
-    
+
+.Wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
+
+.title{
+  font-size: 40px;
+  font-family: Times New Roman,Times,serif;
+  text-align: left;
+ 
+}
 .text{
   text-align: left;
   align-content: left;
-  margin: 20px;
   padding: 10px;
+  margin: 20px;
+  order: 1;
+}
+.textcontent{
+  text-align: left;
+  align-content: left;
+  font-family: 'Cabin', sans-serif;
+  line-height: 1;
+  font-size: 18px;
+}
+
+.Images{
+    position: static;
+    align-content: left;
+}
+
+.Carousel{
+  order: 2;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-content: center;
 }
